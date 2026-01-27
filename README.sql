@@ -1,1 +1,1 @@
-# base-de-donn-e-AP4
+SELECT * FROM Customers;
