@@ -50,7 +50,19 @@
                             </a>
                         </td>
                         <td>
-                            <?php print($matériel['texte']) ?>
+                            <?php print($matériel['Nom']) ?>
+                        </td>
+                          <td>
+                            <?php print($matériel['Année']) ?>
+                        </td>
+                          <td>
+                            <?php print($matériel['Détails']) ?>
+                        </td>
+                          <td>
+                            <?php print($matériel['Type']) ?>
+                        </td>
+                          <td>
+                            <?php print($matériel['Appartenance']) ?>
                         </td>
                     </tr>
                     <?php
