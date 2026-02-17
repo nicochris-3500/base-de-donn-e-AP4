@@ -70,9 +70,24 @@
             ?>
         </table>
         <form method="post" action="insert.php">
-            <input name="nom">
+           <input name="ID">
+            <br>
+            <textarea name="Nom"></textarea>
+            <br>
             <br>
             <textarea name="texte"></textarea>
+            <br>
+            <br>
+            <textarea name="Année"></textarea>
+            <br>
+            <br>
+            <textarea name="Détails"></textarea>
+            <br>
+            <br>
+            <textarea name="Type"></textarea>
+            <br>
+            <br>
+            <textarea name="Appartenance"></textarea>
             <br>
             <input type="submit" value="Ajouter une idée">
         </form>
