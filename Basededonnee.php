@@ -25,16 +25,16 @@
                     Nom
                 </th>
                  <th>
-                    Texte
+                    Année
                 </th>
                  <th>
-                    Texte
+                    Détails
                 </th>
                  <th>
-                    Texte
+                    Type
                 </th>
                  <th>
-                    Texte
+                    Appartenance
                 </th>
             </tr>
             <?php
@@ -46,7 +46,7 @@
                     <tr>
                         <td>
                             <a href="<?php print($url) ?>">
-                                <?php print($matériel['nom']) ?>
+                                <?php print($matériel['ID']) ?>
                             </a>
                         </td>
                         <td>
