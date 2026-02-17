@@ -9,7 +9,7 @@
     <body>
     <?php
 
-            require('credentials.php');
+            require('code.php');
             $connexion = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset", $user, $password);
    
             $requete = $connexion->prepare('select * from idea');
