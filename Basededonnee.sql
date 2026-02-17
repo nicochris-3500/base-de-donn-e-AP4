@@ -1,8 +1,8 @@
-CREATE TABLE MATERIEL_M2L( 
+CREATE TABLE MATÉRIEL_M2L( 
 ID int(3) NOT NULL primary key,
 Nom VARCHAR(30) NOT NULL,
 Année int(4) NOT NULL,
-Détails varchar(40),
+Détails varchar(30),
 Type varchar(20) NOT NULL,
 Appartenance varchar(30));
 Insert into MATERIEL_M2L( ID, Nom, Année, Détails, Type, Appartenace)
