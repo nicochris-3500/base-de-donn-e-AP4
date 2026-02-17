@@ -19,9 +19,21 @@
     <table>
             <tr>
                 <th>
-                    Nom
+                    ID
                 </th>
                 <th>
+                    Nom
+                </th>
+                 <th>
+                    Texte
+                </th>
+                 <th>
+                    Texte
+                </th>
+                 <th>
+                    Texte
+                </th>
+                 <th>
                     Texte
                 </th>
             </tr>
