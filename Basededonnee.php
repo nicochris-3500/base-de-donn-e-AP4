@@ -9,7 +9,7 @@
     <body>
     <?php
 
-            require('code.php');
+            require('credentials.php');
             $connexion = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset", $user, $password);
    
             $requete = $connexion->prepare('select * from Matériel_m2l');
