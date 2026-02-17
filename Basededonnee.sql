@@ -5,7 +5,7 @@ Année int(4) NOT NULL,
 Détails varchar(30),
 Type varchar(20) NOT NULL,
 Appartenance varchar(30));
-Insert into MATERIEL_M2L( ID, Nom, Année, Détails, Type, Appartenace) VALUES
+Insert into MATERIEL_M2L(ID, Nom, Année, Détails, Type, Appartenace) VALUES
 (1, 'PC 1 – Unité centrale' ,2016,'','PC',''), 
 (2, 'PC 2 – Unité centrale' ,2017,'','PC',''), 
 (3, 'PC 3 – Portable' ,2015,'	Inspiron 15-3558','PC',''), 
