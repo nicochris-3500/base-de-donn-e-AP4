@@ -1,3 +1,13 @@
+
+CREATE DATABASE materiel_m2l;
+USE materiel_m2l;
+
+
+CREATE TABLE type (
+    id_type INT PRIMARY KEY AUTO_INCREMENT,
+    libelle VARCHAR(50) NOT NULL
+
+
 CREATE TABLE MATÉRIEL_M2L( 
 ID int(3) NOT NULL primary key,
 Nom VARCHAR(30) NOT NULL,
