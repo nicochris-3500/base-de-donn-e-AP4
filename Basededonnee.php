@@ -14,7 +14,7 @@
    
             $requete = $connexion->prepare('select * from Matériel_m2l');
             $requete->execute();
-            $idees = $requete->fetchAll();
+            $matériels = $requete->fetchAll();
         ?>
     <table>
             <tr>
@@ -27,18 +27,18 @@
             </tr>
             <?php
   
-                foreach ($idees as $idee)
+                foreach ($matériels as $matériel)
                 {
-                    $url = "show.php?id=" . $idee['id'];
+                    $url = "show.php?id=" . $matériel['id'];
                     ?>
                     <tr>
                         <td>
                             <a href="<?php print($url) ?>">
-                                <?php print($idee['nom']) ?>
+                                <?php print($matériel['nom']) ?>
                             </a>
                         </td>
                         <td>
-                            <?php print($idee['texte']) ?>
+                            <?php print($matériel['texte']) ?>
                         </td>
                     </tr>
                     <?php
