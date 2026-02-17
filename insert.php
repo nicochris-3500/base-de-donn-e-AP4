@@ -1,6 +1,6 @@
 <?php
     
-    require('code.php');
+    require('credentials.php');
     $connexion = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset", $user, $password);
     
     if (isset($_POST['ID']) || isset($_POST['Nom']) || isset($_POST['Année']) || isset($_POST['Détails']) || isset($_POST['Type']) || isset($_POST['Appartenance']))
