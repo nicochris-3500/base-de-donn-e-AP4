@@ -12,7 +12,7 @@
             require('code.php');
             $connexion = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset", $user, $password);
    
-            $requete = $connexion->prepare('select * from idea');
+            $requete = $connexion->prepare('select * from Matériel_m2l');
             $requete->execute();
             $idees = $requete->fetchAll();
         ?>
