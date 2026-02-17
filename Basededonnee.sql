@@ -16,6 +16,18 @@ Détails varchar(30),
 Type varchar(20) NOT NULL,
 Appartenance varchar(30)
     );
+
+INSERT INTO type (libelle) VALUES
+('PC'),
+('Écran'),
+('CPU'),
+('RAM'),
+('Disque'),
+('GPU'),
+('Carte réseau'),
+('OS'),
+('Batterie');
+
 Insert into MATERIEL_M2L(ID, Nom, Année, Détails, Type, Appartenance) VALUES
 (1, 'PC 1 – Unité centrale' ,2016,'','PC',''), 
 (2, 'PC 2 – Unité centrale' ,2017,'','PC',''), 
@@ -39,5 +51,5 @@ Insert into MATERIEL_M2L(ID, Nom, Année, Détails, Type, Appartenance) VALUES
 (31, 'RAM PC3' ,2016,'4 Go DDR3L','RAM','PC 3 – Portable'),
 (32, 'Disque PC3' ,2015,'HDD WD Blue 500 Go','Disque','PC 3 – Portable'),
 (33, 'Batterie PC3' ,2016,'usée (≈ 40 min)','Batterie','PC 3 – Portable'),
-(34, 'OS PC3' ,2015,'Windows 10 Pro','OS','PC 3 – Portable'),
+(34, 'OS PC3' ,2015,'Windows 10 Pro','OS','PC 3 – Portable');
 
